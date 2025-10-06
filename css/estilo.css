@@ -1,0 +1,360 @@
+/*BODY y Header*/
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C !important;
+}
+
+header {
+    background-color: #1C1C1C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 15px 5px #FFD600;
+}
+
+header {
+    position: relative;
+}
+
+
+.logo h1 {
+    margin: 0;
+}
+h2
+{
+    text-align: center;
+}
+/*fin body y header*/
+
+/*---------------------------------------------*/
+
+/*Contenedor General*/
+.section {
+    padding: 40px;
+    background-color: #1C1C1C;
+    color: white;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 0 15px 5px #FFD600;
+}
+
+h2{
+    color:  #ccc;
+    content: center;
+}
+/*Fin Contenefor General*/
+
+/*--------------------------------------*/
+
+/*video*/
+
+video {
+    width: 800px;
+    height: auto;
+    padding: 0;
+}
+
+/*fin video*/
+
+/*-------------------------------------*/
+
+/*formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #FFD600;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/*fin formulario*/
+
+/*-------------------------------------------*/
+
+/*integrantes*/
+.creador {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.creador img {
+    width: 150px;
+    border-radius: 50%;
+}
+.equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.miembro {
+    background-color: #ffffff;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    width: 220px;
+}
+
+.miembro img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.miembro h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+/*fin inregrantes*/
+
+/*----------------------------------------------------*/
+
+/*footer*/
+footer {
+    background-color: #1C1C1C;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 20px;
+    padding-top: 15px;
+}
+/*fin footer*/
+
+/*-------------------------------------------------*/
+
+/*tablas*/
+#redes{
+    padding: 15px;
+    margin: 0px auto;
+}
+
+#redes td{
+    padding-left: 15px;
+}
+
+#dosis {
+  margin: 40px auto;
+  border-collapse: collapse;
+  font-size: 13pt;
+}
+
+#dosis td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+#dosis th {
+      border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+#dosis th {
+  background-color: rgba(13,71,161,1);
+  color: white;
+}
+/*fin tablas*/
+
+/*-----------------------------------------*/
+
+
+/*Carrusel*/
+.encabezados-gal{
+    width: 550px;
+    height: auto;
+    margin: 50px auto 0;
+      box-shadow:
+    0 -8px 15px -8px #02f7ff, 
+    0  8px 15px -8px #02f7ff;
+}
+
+.encabezados-gal2{
+    width: 550px;
+    height: auto;
+    margin: 50px auto 0;
+      box-shadow:
+    0 -8px 15px -8px #D32F2F, 
+    0  8px 15px -8px #D32F2F;
+}
+
+.carr{
+    width: 850px;
+    height: 470px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #02f7ff;
+}
+
+.carr ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.carr li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.carr img{
+    width: 100%;
+    height: 70%;
+    display: block;
+    object-fit: cover;
+}
+
+.carr2{
+    width: 850px;
+    height: 470px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #D32F2F;
+}
+
+.carr2 ul{
+    display: flex;
+    padding: 0;
+    width: 1000%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.carr2 li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.carr2 img{
+    width: 100%;
+    height: 70%;
+    display: block;
+    object-fit: cover;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    padding-left: 25px;
+    top: 250px;
+    color: white;
+}
+
+.text h2{
+    font: 45px;
+    margin-bottom: 15px;
+}
+
+/* animacion */
+@keyframes slide{
+  0%   { margin-left: 0; }
+  20%  { margin-left: 0; }
+
+  25%  { margin-left: -100%; }
+  45%  { margin-left: -100%; }
+
+  50%  { margin-left: -200%; }
+  70%  { margin-left: -200%; }
+
+  75%  { margin-left: -300%; }
+  95%  { margin-left: -300%; }
+
+  100% { margin-left: -400%; }
+}
+
+/*Responsivo para telefonos o tablets*/
+@media (max-width: 768px) {
+
+    .encabezados-gal{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .encabezados-gal2{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .carr{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    }
+
+    .carr2{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    }
+
+    .carr img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+    }
+
+    .carr2 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    }
+
+    .text {
+    position: static;
+    padding: 10px;
+    text-align: center;
+    }
+
+    .text h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+
+    .text p{
+        font-size: 14px;
+    }
+
+    .section{
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+    }
+
+    video{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
+/*fin carrusel*/
